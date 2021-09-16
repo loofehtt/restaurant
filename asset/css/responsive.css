@@ -2,11 +2,47 @@
 }
 
 @media (max-width: 767px) {
+	.nav {
+		height: 46px;
+		width: 100%;
+	}
+
+	.nav--list {
+		position: absolute;
+	}
+
+	.nav--list + .nav--list {
+		right: 0;
+	}
+
+	.nav--items > a {
+		padding: 15px 0;
+	}
+
+	.content--header {
+		margin-top: 46px;
+		flex-direction: column;
+	}
+
+	.content--header input {
+		width: 182px;
+		text-align: center;
+	}
+
+	.search--btn {
+		margin: 5px 0 0 0;
+		padding: 8px 69px;
+	}
+
 	.menu--items {
 		width: 80%;
 	}
 
 	.food--items {
 		width: 70%;
+	}
+
+	.list--items fieldset {
+		min-width: 100%;
 	}
 }
