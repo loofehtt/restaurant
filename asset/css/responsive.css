@@ -1,0 +1,12 @@
+@media (min-width: 64em) {
+}
+
+@media (max-width: 767px) {
+	.menu--items {
+		width: 80%;
+	}
+
+	.food--items {
+		width: 70%;
+	}
+}
