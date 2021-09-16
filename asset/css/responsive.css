@@ -1,7 +1,33 @@
-@media (min-width: 64em) {
+/* *tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.nav {
+		width: 100%;
+	}
+
+	.food--items > a {
+		width: 100%;
+		height: 100%;
+	}
+
+	.menu--items {
+		width: auto;
+	}
+
+	.items--order {
+		padding: 0px 68px 18px 46px;
+	}
+
+	.order--btn {
+		width: 160px;
+	}
 }
 
+/* *mobile */
 @media (max-width: 767px) {
+	#header {
+		position: relative;
+	}
+
 	.nav {
 		height: 46px;
 		width: 100%;

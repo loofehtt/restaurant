@@ -214,14 +214,18 @@ body {
 	cursor: pointer;
 }
 
-a.menu--items {
-	margin-top: -8px;
-	text-decoration: none;
-	color: #ff6b81;
+.menu--items--extend {
+	margin-top: -16px;
 	padding-bottom: 32px;
 }
 
-a.menu--items:hover {
+.menu--items--extend a {
+	text-decoration: none;
+	color: #ff6b81;
+	padding: 13px;
+}
+
+.menu--items--extend a:hover {
 	color: crimson;
 }
 
