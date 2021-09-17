@@ -4,6 +4,15 @@
 		width: 100%;
 	}
 
+	.nav--items > a {
+		padding: 35px 24px;
+		line-height: 79px;
+	}
+
+	.nav--logo {
+		height: auto;
+	}
+
 	.food--items > a {
 		width: 100%;
 		height: 100%;
@@ -39,7 +48,6 @@
 	}
 
 	.nav--list + .nav--list {
-		right: 0;
 		margin: auto;
 		text-align: center;
 	}
