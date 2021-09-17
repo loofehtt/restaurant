@@ -16,15 +16,15 @@
     <div id="main">
         <div id="header">
             <div class="nav">
-                <a href="index.html" class="nav--list">
+                <a href="index.php" class="nav--list">
                     <img class="nav--logo" src="./asset/img/logo.png" alt="">
                 </a>
 
                 <ul class="nav--list">
-                    <li class="nav--items"><a href="index.html"> Home </a></li>
-                    <li class="nav--items"><a href="categories.html"> Categories </a></li>
-                    <li class="nav--items"><a href="foods.html"> Food </a></li>
-                    <li class="nav--items"><a href="order.html"> Contacts </a></li>
+                    <li class="nav--items"><a href="index.php"> Home </a></li>
+                    <li class="nav--items"><a href="categories.php"> Categories </a></li>
+                    <li class="nav--items"><a href="foods.php"> Food </a></li>
+                    <li class="nav--items"><a href="order.php"> Contacts </a></li>
                 </ul>
             </div>
         </div>
@@ -55,8 +55,7 @@
                         <div class="order--label">Email</div>
                         <input type="email" class="order--input" placeholder="E.g. phu832001@xxx.com">
                         <div class="order--label">Address</div>
-                        <textarea name="address" class="text--address" rows="10"
-                            placeholder="E.g. Street, City, Country"></textarea>
+                        <textarea name="address" class="text--address" rows="10" placeholder="E.g. Street, City, Country"></textarea>
                         <input type="submit" class="confirm--btn" value="Comfirm Order">
                     </fieldset>
                 </form>

@@ -15,14 +15,14 @@
     <div id="main">
         <div id="header">
             <div class="nav">
-                <a href="index.html" class="nav--list">
+                <a href="index.php" class="nav--list">
                     <img class="nav--logo" src="./asset/img/logo.png" alt="">
                 </a>
 
                 <ul class="nav--list">
-                    <li class="nav--items"><a href="index.html"> Home </a></li>
-                    <li class="nav--items"><a href="categories.html"> Categories </a></li>
-                    <li class="nav--items"><a href="foods.html"> Food </a></li>
+                    <li class="nav--items"><a href="index.php"> Home </a></li>
+                    <li class="nav--items"><a href="categories.php"> Categories </a></li>
+                    <li class="nav--items"><a href="foods.php"> Food </a></li>
                     <li class="nav--items"><a href=""> Contacts </a></li>
                 </ul>
             </div>
