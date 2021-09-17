@@ -30,15 +30,18 @@
 
 	.nav {
 		height: 46px;
-		width: 100%;
+		display: block;
 	}
 
 	.nav--list {
-		position: absolute;
+		text-align: center;
+		display: block;
 	}
 
 	.nav--list + .nav--list {
 		right: 0;
+		margin: auto;
+		text-align: center;
 	}
 
 	.nav--items > a {
