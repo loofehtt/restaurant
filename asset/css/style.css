@@ -21,7 +21,6 @@ body {
 	top: 0;
 	right: 0;
 	left: 0;
-	/* height: 82px; */
 	background-color: #fff;
 }
 
@@ -30,7 +29,6 @@ body {
 	width: 60%;
 	margin: auto;
 	display: flex;
-	/* height: 46px; */
 	justify-content: space-between;
 }
 .nav--list {
@@ -215,7 +213,7 @@ body {
 }
 
 .menu--items--extend {
-	margin-top: -16px;
+	margin-top: -1%;
 	padding-bottom: 32px;
 }
 
