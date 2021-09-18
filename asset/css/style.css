@@ -255,6 +255,7 @@ body {
 #content--body {
 	margin-top: 82px;
 	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
 	padding: 7% 0;
 	background-size: cover;
 	background-position: center;
