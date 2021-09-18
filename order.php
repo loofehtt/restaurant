@@ -61,6 +61,17 @@
                 </form>
             </div>
         </div>
+
+        <div id="footer">
+            <div class="footer--social">
+                <a class="ti-facebook"></a>
+                <a class="ti-instagram"></a>
+                <a class="ti-twitter-alt"></a>
+            </div>
+            <div class="footer--dsc">
+                <p>All right reserved. Design By <a href="http://cse.tlu.edu.vn/">CSE.TLU</a></p>
+            </div>
+        </div>
     </div>
 </body>
 
